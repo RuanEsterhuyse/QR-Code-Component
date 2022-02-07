@@ -17,7 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   height: calc(100vh - 1px);
-  margin: 1.25;
+  margin: 1.25rem;
 }
 
 .container {
@@ -45,11 +45,6 @@ body {
   font-weight: 400;
   font-size: 16px;
 }
-
-/* .paragraph {
-  width: 16rem;
-  margin: 0 auto;
-} */
 
 .attribution {
   font-size: 15px;
