@@ -24,11 +24,11 @@ img {
 .container {
   background-color: hsl(0, 0%, 100%);
   width: 100%;
-  min-width: 15rem;
-  max-width: 19rem;
+  /* min-width: 15rem; */
+  max-width: 25rem;
   margin: 0 auto;
-  padding: 1.2rem 1.2rem 2.5rem;
-  border-radius: 1rem;
+  padding: 1.5rem 1.5rem 3rem;
+  border-radius: 1.5rem;
   text-align: center;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
@@ -39,15 +39,17 @@ img {
 
 h1 {
   color: hsl(218, 44%, 22%);
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   margin-bottom: 1rem;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: 700;
 }
 
 p {
   color: hsl(220, 15%, 55%);
   font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 1rem;
 }
 
 .attribution {
@@ -63,14 +65,14 @@ p {
   font-size: 0.9375rem;
   text-align: center;
   position: absolute;
-  bottom: 10rem;
+  bottom: 1rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 430px), (max-height: 772px) {
   .attribution {
     display: none;
   }
